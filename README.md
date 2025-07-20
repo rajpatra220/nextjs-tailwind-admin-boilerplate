@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js TailwindCSS Admin Boilerplate
 
-## Getting Started
+Welcome to the **Next.js TailwindCSS Admin Boilerplate**! This repository provides a starter template for building modern web applications using Next.js and Tailwind CSS. It includes a responsive layout with a theme switcher, a sidebar with collapsible menus, and a top navigation bar.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Light and Dark Themes**: Easily switch between light and dark modes using the integrated theme switcher.
+- **Sidebar with Collapsible Menu**: A user-friendly sidebar with collapsible menu for better screen utilization.
+- **Top Navigation Bar**: A clean and intuitive top navigation for quick access to different sections of your application.
+- **Responsive Design**: Ensures a great user experience on both desktop and mobile devices.
+- **Tailwind CSS Integration**: Utilizes Tailwind CSS for rapid UI development with utility-first styling.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+To get started with this boilerplate, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/rajpatra220/nextjs-tailwind-admin-boilerplate.git
+   cd nextjs-tailwind-admin-boilerplate
+   ```
 
-## Learn More
+2. **Install dependencies**:
+   Make sure you have [Node.js](https://nodejs.org/) installed. Then, run:
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Run the development server**:
+   Start the development server using:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Open your browser**:
+   Navigate to `http://localhost:3000` to view your application in action.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+Once the application is running, you can:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Toggle between light and dark themes using the theme switcher button.
+- Collapse or expand the sidebar menu by clicking on the toggle icon.
+- Explore the top navigation for quick access to various sections.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Next.js](https://nextjs.org/) - The React framework for production.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for creating custom designs.
+- [PostCSS](https://postcss.org/) - A tool for transforming CSS with JavaScript.
